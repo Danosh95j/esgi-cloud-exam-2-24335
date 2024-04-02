@@ -2,7 +2,7 @@ const { Sequelize } = require('sequelize')
 
 // database
 const sequelize = new Sequelize(
-  'postgres://db_ldt1_user:Fo6WZa38peFwfr35vsMj3a4aNodIX7Ex@dpg-co60btm3e1ms73bddgc0-a.frankfurt-postgres.render.com/db_ldt1', // TODO
+  'postgres://db_ldt1_user:Fo6WZa38peFwfr35vsMj3a4aNodIX7Ex@dpg-co60btm3e1ms73bddgc0-a/db_ldt1', // TODO
   {
     dialectOptions: {
       ssl: {
